@@ -2,14 +2,14 @@
 See obsolescence.wix.com/obsolescence/pidp11
 
 **Important: I'm struggling with github's handling of large (largish) binary images.
-So, do everything as per below. Then, download the contents of the bootscripts directory from this Google Drive file:
+So, do everything as per below. Then, download the contents of the bootscripts directory (OS disk images and boot scripts) from this Google Drive file:
 https://drive.google.com/open?id=1SuBurN3uk6VqRGAmvjwREUWHuFMQLZPM
 (Apologies)**
 
 
 **Note**
-- that this is a very early version of the software for beta testers of the kit
-- that you do not need to have the PiDP-11 hardware, it'll run fine without. Just no lights and switches.
+- expect updates of the pidp-11 software in the coming months
+- you do not need to have the PiDP-11 hardware, it'll run fine without. Just no lights and switches.
 
 
 **Install instructions:**
@@ -17,6 +17,7 @@ https://drive.google.com/open?id=1SuBurN3uk6VqRGAmvjwREUWHuFMQLZPM
 - create a 'pidp11' directory into /opt, and copy the files inside the pidp11 clone directory into /opt/pidp11/,
 - run sudo ./install.sh in /opt/pidp11/install/,
 - reboot
+- copy the contents of the above ZIP file into the bootscripts directory. It's easiest to download the file onto a USB stick from your laptop, then copy from the USB stick into the Pi.
 
 After reboot, you should find yourself booting RSX-11M+. See detailed instructions at the end of this file.
 
