@@ -87,3 +87,4 @@ First make sure you've got a working internet connection (googling will help you
 **Various notes**
 - An update, in the form of a user-friendly download-and-boot SD card image will be published soon (2 weeks or so max). 
 - The /opt/pidp11/src directory contains all sources. The two scripts in there allow you to recompile the client and server.
+- quick bug fix: to boot unix v7, change "att rp0 disk0.hp" into "att rp0 ../bootscripts/disk0.hp" in the file /opt/pidp11/bootscripts/7_unix_v7.script. Sorry!
