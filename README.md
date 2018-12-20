@@ -50,7 +50,7 @@ The idea is that this gradually fills up with fully loaded operating systems, of
 SR switch/OS | SR switch/OS | SR switch/OS | SR switch/OS |  SR switch/OS |
 ----------|-----------|-----------|-----------|------------|
 1 - RSX-11M + | 6 - Unix v6 | 11 - | 16 - | 21 - Nankervis |
-2 - BSD211 | 7 - | 12 - | 17 - |      Collection of
+2 - BSD211 | 7 - Unix v7 | 12 - | 17 - |      Collection of
 3 - RT11 | 8 - | 13 - | 18 - |      15 OSes
 4 - RSTS v7 | 9 - | 14 - | 19 -
 5 - | 10 -| 15 - | 20 - Hill's Blinky
@@ -85,6 +85,5 @@ First make sure you've got a working internet connection (googling will help you
 
 
 **Various notes**
-- This is just to get the beta testers going, and perhaps to attract help from people to set up more interesting OSes... 
-- The sources come from https://github.com/j-hoppe/BlinkenBone , I'll set up a proper branch when I leave the sandbox phase.
+- An update, in the form of a user-friendly download-and-boot SD card image will be published soon (2 weeks or so max). 
 - The /opt/pidp11/src directory contains all sources. The two scripts in there allow you to recompile the client and server.
