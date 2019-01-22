@@ -1,4 +1,3 @@
-# PiDP-11 software, alpha version
 See obsolescence.wix.com/obsolescence/pidp11
 
 
@@ -6,12 +5,11 @@ See obsolescence.wix.com/obsolescence/pidp11
 Download the manual at https://www3.ispnet.net/pidp11/PiDP-11%20Manual%20v0.2.odt and follow the instructions on page 11
 
 # This repository will remain online for a while, but you are recommended to use the above installation!
-
-
-**Important: I'm struggling with github's handling of large (largish) binary images.
-So, do everything as per below. Then, download the contents of the bootscripts directory (OS disk images and boot scripts) from this Google Drive file:
+# -
+# -
+Important: github struggles with large binary images. So, do everything as per below. 
+Then, download the contents of the bootscripts directory (OS disk images and boot scripts) from this Google Drive file:
 https://drive.google.com/open?id=1SuBurN3uk6VqRGAmvjwREUWHuFMQLZPM
-(Apologies)**
 
 
 **Note**
